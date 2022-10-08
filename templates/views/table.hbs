@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Complaint Table</title>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="post">
+        <h2>Complaint Table</h2>
+    </div>
+    <div class='table'>
+        <table id='complainttable'>
+            <thead>
+                <tr>
+                    <th>Complaint No.</th>
+                    <th>Student Roll No.</th>
+                    <th>Student Name</th>
+                    <th>Student Contact No.</th>
+                    <th>Hostel Block</th>
+                    <th>Student Room No.</th>
+                    <th>Complaint Type</th>
+                    <th>Complaint Description</th>
+                    <th>Status</th>
+                    <th>DeleteComplaint</th>
+                </tr>
+            </thead>
+            <tbody id='Complaintlist'>
+                {{#each users}}
+                <tr>
+                    <td>{{this.complaintnumber}}</td>
+                    <td>{{this.studentroll}}</td>
+                    <td>{{this.studentname}}</td>
+                    <td>{{this.studentcontact}}</td>
+                    <td>{{this.hostelblock}}</td>
+                    <td>{{this.hostelroom}}</td>
+                    <td>{{this.complainttype}}</td>
+                    <td>{{this.description}}</td>
+                    <td>{{this.complaintstatus}}</td>
+                    <form action='table/{{this.id}}' method='POST'>
+                    <td><button type='submit'>Delete</button></td>
+                    </form>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

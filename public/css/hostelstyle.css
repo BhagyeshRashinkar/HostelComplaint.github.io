@@ -1,0 +1,210 @@
+body{
+    /* background-image:url("https://www.rgipt.ac.in/site/writereaddata/uploadedImages/Image/I_201906041051132632.jpg"); */
+    background-position:center;
+    background-size: cover;
+    background-image: linear-gradient(to left , #FFECD2 , #FCB69F);
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 15.5px;
+}
+
+table{
+    width: 100%;
+}
+
+table ,th, td{
+    border:2px solid;
+    /* border-collapse: collapse; */
+}
+.heading{
+    border-radius: 10px;
+    text-align: center;
+    border: 4px solid;
+    background-image: linear-gradient(#C33764, #1D2671);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.navigate{
+    margin-bottom: 100px;
+}
+
+.navoption{
+    display: inline-block;
+    padding: 15px;
+    margin: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navnav{
+    border: 4px solid;
+    border-radius: 10px;
+}
+
+.post{
+    border-radius: 10px;
+    border: 3px solid;
+    margin-bottom: 2px;
+    text-align: center;
+    background-image: linear-gradient(#dd5e89,  #f7bb97);
+    text-transform: uppercase;
+    /* opacity: 0.4; */
+    /* margin-top: 50%; */
+}
+
+.form{
+    border-radius: 10px;
+    padding: 15px;
+    border: 3px solid;
+}
+
+.table{
+    margin-top: 50px;
+}
+
+.input{
+    border: 1px solid;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 33%;
+    text-align: center;
+    background-image: linear-gradient(#5b86e5, #36d1dc);
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.empty{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.number{
+    border: 1px solid;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 33%;
+    text-align: center;
+    background-image: linear-gradient(#13547a, #80d0c7);
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.select{
+    border: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(#ffedbc, #ed4264);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select#type{
+    width: 75%;
+    margin: 5px;
+}
+
+input#number{
+    width: 50%;
+    margin: 5px;
+}
+
+input#name{
+    width: 50%;
+    margin: 5px;
+}
+
+input#roll{
+    width: 50%;
+    margin: 5px;
+}
+
+input#room{
+    width: 50%;
+    margin: 5px;
+}
+
+select#block{
+    width: 75%;
+    margin: 5px;
+}
+
+input#contact{
+    width: 50%;
+    margin: 5px;
+}
+
+.describe{
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px; 
+    width: 98%;
+    background-image: linear-gradient(#A890FE, #EA8D8D);
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea#description{
+    width: 75%;
+    padding-bottom: 100px;
+    overflow: scroll;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.button{
+    border: 1px solid;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(#009245, #FCEE21);
+}
+
+.submit{
+    width: 45%;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+input#a{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+    font-size: 16px;
+}
+
+input#status{
+    width:100px;
+}
+
+button#c{
+    float: right;
+}
+
+input#a:hover{
+    background: url("https://media3.giphy.com/media/Qh6aPCssL8J8I/200w.webp?cid=ecf05e471gm4zea668llsb5a3d9i1o0r76mllzinafnvfwd9&rid=200w.webp&ct=g");
+}
+
+tbody{
+    text-align: center;
+}
+
+.delete{
+    margin-bottom: 0px;
+}
