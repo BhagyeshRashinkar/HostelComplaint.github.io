@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
-const DB = "mongodb+srv://Bhagyesh:UmgvYFutDY5FPwYj@cluster0.kb4wjcw.mongodb.net/complaintregistration?retryWrites=true&w=majority"
+dotenv.config();
+const url = process.env.URL;
 
-mongoose.connect(DB).then(function(){
+mongoose.connect(url).then(function(){
     console.log('connection established');
 }).catch(function(err){
     console.log('no connection');
