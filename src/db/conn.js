@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/complaintRegistration').then(function(){
+const DB = "mongodb+srv://Bhagyesh:UmgvYFutDY5FPwYj@cluster0.kb4wjcw.mongodb.net/complaintregistration?retryWrites=true&w=majority"
+
+mongoose.connect(DB).then(function(){
     console.log('connection established');
 }).catch(function(err){
-    console.log(err);
+    console.log('no connection');
 })
