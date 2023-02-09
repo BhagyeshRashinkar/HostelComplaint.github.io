@@ -95,7 +95,7 @@ app.post('/table/:id', function (req, res) {
                 res.status(404).send(`Data with ${id} was not found`);
             }
             else {
-                res.redirect("http://localhost:8080/table");
+                res.redirect("/table");
             }
         })
         .catch(err => {
@@ -121,7 +121,7 @@ app.post('/hosteltabl/:_id', function (req, res) {
                 res.status(404).send(`Cannot update complaint status of user with ${id}`);
             }
             else{
-                res.redirect("http://localhost:8080/hosteltable");
+                res.redirect("/hosteltable");
             }
         })
         .catch(err => {
@@ -140,7 +140,7 @@ app.post('/hosteltable/:id', function (req, res) {
                 res.status(404).send(`Data with ${id} was not found`);
             }
             else {
-                res.redirect("http://localhost:8080/hosteltable");
+                res.redirect("/hosteltable");
             }
         })
         .catch(err => {
